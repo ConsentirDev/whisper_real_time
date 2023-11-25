@@ -128,6 +128,14 @@ def main():
                 # Otherwise edit the existing one.
                 if phrase_complete:
                     transcription.append(text)
+                    ## Here is where we should add a function call to a chat helper function as additional RECIP: message
+                    ## will need to be an await and the main audio capture function will need to be async, 
+                    ## this way if the RECIP: talks before the AI responds the audio is captured and queued, and not lost.
+                    ## This function could be running in parallel to the chat agent group, User_proxy (acting as RECIP:) could then have its message content be fed from this transcript.
+                    ## Secondary User_proxy (acting as APPROVER:) could then have its message content be fed from this transcript.
+                    ## Agent (Concierge) can then respond with full conversation context quickly and efficiently.
+                    ## Use of autogen agent sequence, step count, prompt logic, creativity hyperparameters can then be used.
+                    ## could also be used in multi agent autonomous scenario, for research or follow up calls, agent presteps could include call planning ie: approach, tone, fallback logic.
                 else:
                     transcription[-1] = text
 
