@@ -2,7 +2,7 @@ repo_name: ConsentirDev/whisper_real_time
 report_id: f5fbfe065987d141698981910f0e2135
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-19T07:13:17+00:00'
+timestamp: '2024-01-05T08:57:58+00:00'
 requested_by: davabase
 provider: github
 branch: master
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ConsentirDev/whisper_real_time
   detection_source: Repo Metadata
 - name: pgvector
   description: Open-source vector similarity search for Postgres
@@ -26,6 +27,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/ConsentirDev/whisper_real_time/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: davabase
   last_updated_on: 2022-11-29 06:27:56.000000000 Z
@@ -37,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ConsentirDev/whisper_real_time
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -46,6 +49,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ConsentirDev/whisper_real_time/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: davabase
   last_updated_on: 2022-11-29 06:27:56.000000000 Z
@@ -57,6 +61,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ConsentirDev/whisper_real_time/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: davabase
   last_updated_on: 2022-11-29 06:27:56.000000000 Z
@@ -69,6 +74,7 @@ tools:
   category: Application Utilities
   sub_category: Machine Learning Tools
   image_url: https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png
+  detection_source_url: https://github.com/ConsentirDev/whisper_real_time/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: davabase
   last_updated_on: 2022-11-29 06:27:56.000000000 Z
@@ -81,6 +87,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ConsentirDev/whisper_real_time/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: davabase
   last_updated_on: 2022-11-29 06:27:56.000000000 Z
